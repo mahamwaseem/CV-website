@@ -1,5 +1,11 @@
 import { useState, useEffect } from "react";
-import { FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt, FaStar, FaCode, FaChartLine  } from "react-icons/fa";
+import {
+  FaLinkedin,
+  FaEnvelope,
+  FaMapMarkerAlt,
+  FaPhoneAlt
+} from "react-icons/fa";
+import profileImg from "./images/image.png";
 
 // ─── SKILL ICONS ──────────────────────────────────────────────────────────────
 const SKILL_ICONS = {
@@ -430,9 +436,16 @@ export default function CV() {
         <div className="hero-right">
           <div className="hero-yellow-bg" />
           <div className="hero-img-wrap">
-            <img src={require("./images/image.png")}
-                 alt="Abdul Wahab Farooq"
-                 style={{width:"100%",height:"100%",objectFit:"cover",objectPosition:"center top"}} />
+            <img 
+  src={profileImg}
+  alt="Abdul Wahab Farooq"
+  style={{
+    width:"100%",
+    height:"100%",
+    objectFit:"cover",
+    objectPosition:"center top"
+  }}
+/>
           </div>
           <div className="hero-badge">QA Consultant</div>
         </div>
