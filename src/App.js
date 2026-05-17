@@ -318,14 +318,22 @@ body{background:#f4f4f0;color:#0d1f1a;font-family:'Open Sans',sans-serif;font-si
 
 @media(max-width:900px){
   .nav{padding:12px 20px}.nav-links{display:none}
-  .hero{grid-template-columns:1fr}.hero-right{display:none}
-  .hero-left{padding:80px 20px 60px}
+  .hero{grid-template-columns:1fr;min-height:auto}
+  .hero-left{padding:60px 20px 40px}
+  .hero-right{width:100%;height:300px;margin-top:30px}
+  .hero-yellow-bg{width:200px;height:280px;bottom:0}
+  .hero-img-wrap{width:200px;height:280px}
+  .hero-badge{font-size:10px;padding:8px 16px;top:20px;right:15px}
   .main{padding:0 20px 60px}
   .about-grid{grid-template-columns:1fr}
   .skills-layout{grid-template-columns:1fr}
   .bottom-grid{grid-template-columns:1fr}
   .footer{padding:20px;flex-direction:column;gap:8px;text-align:center}
-  .hero-name .line1,.hero-name .line2{font-size:3rem}
+  .hero-name .line1,.hero-name .line2{font-size:2.5rem}
+  .hero-stats{gap:20px;flex-wrap:wrap}
+  .stat-num{font-size:2rem}
+  .hero-chips{gap:8px}
+  .chip{font-size:11px;padding:8px 12px}
   .sec-title{font-size:1.8rem}
 }
 `;
